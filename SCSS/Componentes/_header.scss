@@ -1,0 +1,38 @@
+@import "../Estilos/padding";
+@import "../Estilos/colores";
+@import "../Estilos/fuentes";
+
+@mixin tamaño-logo ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.navbar {
+    background-color: $background;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: $background;
+    margin-bottom: 10px;
+    padding-bottom: map-get($padding, header-bottom-top);
+    padding-top: map-get($padding, header-bottom-top);
+    z-index: 25;
+        a {
+            font-family: $enlaces;
+            text-decoration: none;
+        }
+}
+
+.logo {
+    @include tamaño-logo(100px, 100px)
+}
+
+.nav-link {
+    color: $texto;
+    &:hover {
+        color: $acentos;
+    }
+}
+

@@ -1,0 +1,73 @@
+@import "Estilos/colores";
+@import "Estilos/fuentes";
+@import "Componentes/header";
+@import "Funciones/grid";
+@import "Funciones/mediaqueries";
+@import "Componentes/footer";
+@import "Estilos/padding";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: $acentos;
+    font-family: $titulos;
+    padding: map-get($padding, h1);
+    }
+
+h2 {
+    margin-left: 40px;
+    }
+
+.subtitulo {
+        color: $acentos;
+        font-family: $titulos;
+        padding-bottom: map-get($padding, subtitulo-bottom);
+        margin-top: 20px;
+    }
+
+p {
+        color: $texto;
+        font-family: $parrafos;
+        text-align: justify;
+        font-size: 1rem;
+        padding-top: map-get($padding, p-top);
+        padding-right: map-get($padding, p-right-bottom-left);
+        padding-bottom: map-get($padding, p-right-bottom-left);
+        padding-left: map-get($padding, p-right-bottom-left);
+    }
+
+.catalogo {
+        padding: map-get($padding, catalogo);
+    }
+            
+    
+em {
+        display: block;
+        padding: map-get($padding, em);
+    }
+    
+    
+.faq {
+        font-family: $enlaces;
+    }
+    
+.faq-body {
+        font-family: $parrafos;
+    }
+    
+.accordion-button {
+        background-color: $background !important;
+        color: $acentos !important;
+    }
+
+.navbar {
+    background-color: $background !important;
+}
+
+
+

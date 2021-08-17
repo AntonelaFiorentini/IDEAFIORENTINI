@@ -1,0 +1,36 @@
+@media only screen and (max-width: 480px) {
+    h1 { 
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 13.8px;
+    }
+    }
+    
+    @media only screen and (min-width: 401px) and (max-width: 960px) {
+    h1 { 
+        font-size: 40px;
+     }
+     h2 {
+         font-size: 25px
+     }
+     p {
+         font-size: 14.8px;
+     }
+    }
+    
+    @media only screen and (min-width: 961px) {
+     h1 { 
+         font-size: 50px;
+       
+    }
+    h2 {
+        font-size: 35px
+    }
+    p {
+        font-size: 15.8px;
+    }
+    }
