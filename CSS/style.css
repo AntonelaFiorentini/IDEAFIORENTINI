@@ -175,4 +175,10 @@ em {
   background-color: white !important;
 }
 
+.alineacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
