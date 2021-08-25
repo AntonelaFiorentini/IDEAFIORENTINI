@@ -2,11 +2,6 @@
 @import "../Estilos/fuentes";
 @import "../Estilos/colores";
 
-@mixin tamaño-icono ($ancho, $alto) {
-    width: $ancho;
-    height: $alto;
-}
-
 footer {
     background-color: $background-footer;
     color: $footer;
@@ -19,7 +14,6 @@ footer {
     justify-content: center;
     .logo-red {
         margin: 20px;
-       @include tamaño-icono(60px, 60px)
     }
 }
 .contacto {
