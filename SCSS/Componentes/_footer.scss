@@ -19,7 +19,7 @@ footer {
     justify-content: center;
     .logo-red {
         margin: 20px;
-       @include tamaño-icono(30px, 30px)
+       @include tamaño-icono(60px, 60px)
     }
 }
 .contacto {
