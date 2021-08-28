@@ -69,11 +69,13 @@ em {
     background-color: $background !important;
 }
 
-.alineacion {
+.alineacion, .formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
+.form {
+    font-family: $parrafos;
+}
 
