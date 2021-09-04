@@ -36,6 +36,9 @@ header a {
 .nav-link:hover {
   color: #831111;
 }
+.nav-link:visited {
+  color: #831111;
+}
 
 .grid {
   display: grid;
@@ -75,6 +78,16 @@ header a {
     width: 50px;
     height: 50px;
   }
+
+  .mapa {
+    height: 25%;
+    width: 25%;
+  }
+
+  .showroom {
+    height: 25%;
+    width: 25%;
+  }
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   h1 {
@@ -93,6 +106,16 @@ header a {
     width: 75px;
     height: 75px;
   }
+
+  .mapa {
+    height: 50%;
+    width: 50%;
+  }
+
+  .showroom {
+    height: 50%;
+    width: 50%;
+  }
 }
 @media only screen and (min-width: 961px) {
   h1 {
@@ -110,6 +133,16 @@ header a {
   .logo {
     height: 100px;
     width: 100px;
+  }
+
+  .mapa {
+    height: 100%;
+    width: 100%;
+  }
+
+  .showroom {
+    height: 100%;
+    width: 100%;
   }
 }
 footer {
