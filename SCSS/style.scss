@@ -7,6 +7,7 @@
 @import "Estilos/padding";
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -79,3 +80,10 @@ em {
     font-family: $parrafos;
 }
 
+.celda {
+    border-radius: 10px;
+}
+
+input [type=text] {
+    border-radius: 2;
+  }
